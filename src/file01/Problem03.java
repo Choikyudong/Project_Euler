@@ -11,7 +11,6 @@ public class Problem03 {
 
     public static void main(String[] args) {
         System.out.println(solution(13195));
-        System.out.println(13195 / 2);
     }
 
     static int solution(long number) {
