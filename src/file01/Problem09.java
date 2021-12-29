@@ -12,6 +12,19 @@ public class Problem09 {
     }
 
     static void pythagoreanTriple() {
+        int a, b, c;
+        int result;
+        // 3개의 숫자의 합이 1000이니 최대 연산 숫자를 1000까지로 제한한다.
+        for (a = 1; a < 1000; a++) {
+            for (b = 1; b < 1000; b++) {
+                for (c = 1; c < 1000; c++) {
+                    if ( ((a < b) && (b < c)) && ((a * a) + (b * b) == (c * c)) && a + b + c == 1000) {
+                        result = a * b * c;
+                        System.out.println(result); // 확인용
+                    }
+                }
+            }
+        }
     }
 
 }
