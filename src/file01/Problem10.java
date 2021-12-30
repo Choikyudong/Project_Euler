@@ -9,7 +9,7 @@ public class Problem10 {
         // int값 이상이 나올걸로 예상하고 long타입으로 한다.
         long Sum = 0;
 
-        // 시작값을 1로 시작한다.
+        // 시작값을 3으로 시작한다.
         int number = 3;
 
         // 최대범위인 이백만을 설정한다.
